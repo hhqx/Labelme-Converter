@@ -178,6 +178,6 @@ app.mainloop()
 """
 # 打包命令: 
 # pip install pyinstaller
-pyinstaller --onefile --windowed --icon resources/icon.ico --add-data "resources/icon.ico;./resources/" Label-Converter.py
+pyinstaller --onefile --windowed --icon resources/icon.ico --add-data "resources/icon.ico;./resources/" Labelme-Converter.py
 
 """
