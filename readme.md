@@ -1,5 +1,6 @@
 # 打包生成exe
 ```shell
+# python 3.9, pyinstaller == 5.13.0
 # 打包命令: 
 # pip install pyinstaller
 pyinstaller --onefile --windowed --icon resources/icon.ico --add-data "resources/icon.ico;./resources/" Labelme-Converter.py
